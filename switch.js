@@ -14,19 +14,10 @@ console.log('IF - ELSE SOLUTION: ', ifElseResult);
  var switchResult;
 // YOUR CODE GOES HERE
 switch (yourBrowser) {
-    case "don't support IE":
+    case "IE":
        switchResult = ieLog;
        break;
-    case "Chrome" :
-       switchResult = webKitLog + yourBrowser;
-       break;
-    case "FireFox":
-       switchResult = webKitLog + yourBrowser;
-       break;
-    case "Opera":
-        switchResult = webKitLog + yourBrowser;
-        break;
-    case "Safari":
+    case "Chrome" || "Firefox" || "Opera" || "Safari":
        switchResult = webKitLog + yourBrowser;
        break;
     default:
