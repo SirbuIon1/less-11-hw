@@ -17,7 +17,10 @@ switch (yourBrowser) {
     case "IE":
        switchResult = ieLog;
        break;
-    case "Chrome" || "Firefox" || "Opera" || "Safari":
+    case "Chrome" :
+    case "Firefox" :
+    case "Opera" :
+    case "Safari":
        switchResult = webKitLog + yourBrowser;
        break;
     default:
